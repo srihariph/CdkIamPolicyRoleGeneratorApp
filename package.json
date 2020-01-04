@@ -1,0 +1,25 @@
+{
+  "name": "iam-policy-role-generator",
+  "version": "1.0.0",
+  "description": "Create IAM policies and roles",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "author": {
+    "name": "Amazon Web Services",
+    "url": "https://aws.amazon.com",
+    "organization": true
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "10.17.5",
+    "typescript": "~3.7.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-iam": "*",
+    "@aws-cdk/core": "*"
+  }
+}
